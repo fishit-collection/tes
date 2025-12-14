@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    
+    <!-- ULTRA OPTIMIZED META TAGS -->
+    <meta name="theme-color" content="#0a1f44">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="VECHNOST">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    
+    <!-- TITLE & DESCRIPTION -->
+    <title>VECHNOST | FISH IT - COLLECTION</title>
+    <meta name="description" content="Koleksi lengkap ikan secret dari game Fish It yang dikelompokkan per pulau dan event.">
+    
+    <!-- OPEN GRAPH / SOCIAL META -->
+    <meta property="og:title" content="VECHNOST">
+    <meta property="og:description" content="Koleksi lengkap ikan secret dari game Fish It yang dikelompokkan per pulau dan event.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.imgur.com/iK2SqDk.jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="VECHNOST | FISH IT - COLLECTION">
+    <meta property="og:url" content="https://vechnost.vercel.app/">
+    
+    <!-- APPLE TOUCH ICONS -->
+    <link rel="apple-touch-icon" href="https://i.imgur.com/EaEj7Yt.gif">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://i.imgur.com/EaEj7Yt.gif">
+    <link rel="apple-touch-icon" sizes="512x512" href="https://i.imgur.com/EaEj7Yt.gif">
+    <link rel="apple-touch-startup-image" href="https://i.imgur.com/iK2SqDk.jpeg">
+    
+    <!-- ULTRA AGGRESSIVE PRELOAD - SAFARI COMPATIBLE -->
+    <!-- CRITICAL IMAGES -->
+    <link rel="preload" href="https://i.imgur.com/iK2SqDk.jpeg" as="image" crossorigin="anonymous" fetchpriority="high">
+    <link rel="preload" href="https://i.imgur.com/EaEj7Yt.gif" as="image" crossorigin="anonymous" fetchpriority="high">
+    <link rel="preload" href="https://i.imgur.com/3ZzB6Go.png" as="image" crossorigin="anonymous" fetchpriority="high">
+    
+    <!-- CRITICAL FONTS -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto+Mono:wght@300;400;500;700&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    
+    <!-- CRITICAL CSS -->
+    <link rel="preload" href="assets/css/style.css" as="style">
+    
+    <!-- CRITICAL JS -->
+    <link rel="preload" href="assets/js/style.js" as="script" fetchpriority="high">
+    
+    <!-- ULTRA AGGRESSIVE RESOURCE HINTS -->
+    <link rel="dns-prefetch" href="https://i.imgur.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <link rel="preconnect" href="https://i.imgur.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- FAVICON -->
+    <link rel="icon" href="https://i.imgur.com/EaEj7Yt.gif" type="image/gif">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/flashsale.css">
+    
+    <!-- PWA MANIFEST -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- INSTANT LOAD SCRIPT - RUNS IMMEDIATELY -->
+    <script>
+    // ============================================ //
+    // ULTRA INSTANT LOAD - ALL BROWSERS OPTIMIZED  //
+    // ============================================ //
+    
+    (function() {
+        'use strict';
+        
+        // Browser detection
+        const ua = navigator.userAgent;
+        const isSafari = /^((?!chrome|android).)*safari/i.test(ua);
+        const isChrome = /chrome|chromium/i.test(ua);
+        const isIOS = /iPad|iPhone|iPod/.test(ua);
+        const isMobile = /Mobi|Android/i.test(ua);
+        
+        console.log('🚀 ULTRA INSTANT LOAD INITIALIZING...');
+        console.log('🌐 Browser:', isSafari ? 'Safari' : isChrome ? 'Chrome' : 'Other');
+        console.log('📱 Platform:', isIOS ? 'iOS' : isMobile ? 'Android' : 'Desktop');
+        
+        // CRITICAL IMAGES FOR INSTANT DISPLAY
+        const CRITICAL_IMAGES = [
+            'https://i.imgur.com/iK2SqDk.jpeg', // Banner
+            'https://i.imgur.com/EaEj7Yt.gif',  // Logo
+            'https://i.imgur.com/3ZzB6Go.png',  // WhatsApp
+        ];
+        
+        // Preload images immediately (runs as soon as script loads)
+        function preloadCriticalImages() {
+            console.log('⚡ Preloading critical images...');
+            
+            CRITICAL_IMAGES.forEach(url => {
+                const img = new Image();
+                img.src = url;
+                img.crossOrigin = 'anonymous';
+                img.fetchPriority = 'high';
+                img.decoding = 'async';
+                img.loading = 'eager';
+                
+                // Safari workaround
+                if (isSafari) {
+                    img.style.position = 'fixed';
+                    img.style.opacity = '0';
+                    img.style.pointerEvents = 'none';
+                    img.style.zIndex = '-9999';
+                    img.style.width = '1px';
+                    img.style.height = '1px';
+                    document.body.appendChild(img);
+                }
+            });
+        }
+        
+        // Preload additional important images
+        function preloadImportantImages() {
+            setTimeout(() => {
+                const importantImages = [
+                    'https://i.imgur.com/0VaM2BR.png',  // Flash Sale 1
+                    'https://i.imgur.com/3lZltW5.png',  // Flash Sale 2
+                    'https://i.imgur.com/1mOSmTs.png',  // Flash Sale 3
+                    'https://i.imgur.com/giC6tC5.png',  // Flash Sale 4
+                    'https://i.imgur.com/rk1jciA.jpeg', // Best Seller 1
+                    'https://i.imgur.com/giC6tC5.png',  // Best Seller 2
+                    'https://i.imgur.com/eFgHijK.jpeg', // Best Seller 3
+                    'https://i.imgur.com/lMnOpQr.jpeg', // Best Seller 4
+                ];
+                
+                importantImages.forEach(url => {
+                    const img = new Image();
+                    img.src = url;
+                    img.loading = 'eager';
+                    img.decoding = 'async';
+                });
+                
+                console.log('✅ Important images preloaded');
+            }, 50);
+        }
+        
+        // Apply browser-specific optimizations
+        function applyBrowserOptimizations() {
+            // Force GPU acceleration
+            document.body.style.transform = 'translateZ(0)';
+            document.body.style.webkitTransform = 'translateZ(0)';
+            
+            // Safari specific
+            if (isSafari || isIOS) {
+                document.body.style.webkitTextSizeAdjust = '100%';
+                document.body.style.webkitOverflowScrolling = 'touch';
+                document.body.style.overscrollBehavior = 'none';
+                
+                // Register Safari service worker
+                if ('serviceWorker' in navigator) {
+                    setTimeout(() => {
+                        navigator.serviceWorker.register('assets/js/safari-worker.js')
+                            .then(() => console.log('✅ Safari Worker registered'))
+                            .catch(e => console.log('⚠️ Safari Worker failed:', e));
+                    }, 1000);
+                }
+            }
+            
+            // Chrome specific
+            if (isChrome) {
+                // Register Chrome service worker
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.register('assets/js/chrome-worker.js')
+                        .then(() => console.log('✅ Chrome Worker registered'))
+                        .catch(e => console.log('⚠️ Chrome Worker failed:', e));
+                }
+            }
+        }
+        
+        // Replace image sources with cached versions
+        function replaceImageSources() {
+            // Replace banner
+            const bannerImg = document.querySelector('.banner-image img');
+            if (bannerImg) {
+                bannerImg.loading = 'eager';
+                bannerImg.decoding = 'async';
+                bannerImg.fetchPriority = 'high';
+                bannerImg.style.contentVisibility = 'auto';
+            }
+            
+            // Replace logo
+            const logoImg = document.querySelector('.logo-circle img');
+            if (logoImg) {
+                logoImg.loading = 'eager';
+                logoImg.decoding = 'async';
+                logoImg.fetchPriority = 'high';
+            }
+            
+            // Replace WhatsApp
+            const whatsappImg = document.querySelector('.whatsapp-img');
+            if (whatsappImg) {
+                whatsappImg.loading = 'eager';
+                whatsappImg.decoding = 'async';
+            }
+            
+            // Apply to all images
+            setTimeout(() => {
+                const allImages = document.querySelectorAll('img');
+                allImages.forEach(img => {
+                    if (!img.loading) img.loading = 'eager';
+                    if (!img.decoding) img.decoding = 'async';
+                    img.style.imageRendering = 'crisp-edges';
+                    img.style.webkitFontSmoothing = 'antialiased';
+                });
+            }, 100);
+        }
+        
+        // Initialize everything
+        function initInstantLoad() {
+            console.log('🔥 Starting instant load sequence...');
+            
+            // Phase 1: Preload critical resources
+            preloadCriticalImages();
+            
+            // Phase 2: Apply optimizations
+            applyBrowserOptimizations();
+            
+            // Phase 3: DOM ready optimizations
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('📄 DOM Ready - Applying final optimizations');
+                
+                replaceImageSources();
+                preloadImportantImages();
+                
+                // Mark as instant-loaded
+                document.body.classList.add('instant-loaded');
+                
+                // Trigger image load
+                if (window.forceImageLoad) {
+                    window.forceImageLoad();
+                }
+            });
+            
+            // Phase 4: Window load optimizations
+            window.addEventListener('load', function() {
+                console.log('🎉 Window Loaded - All resources ready');
+                document.body.classList.add('fully-loaded');
+                
+                // Preload remaining images
+                setTimeout(preloadImportantImages, 500);
+            });
+        }
+        
+        // Start immediately
+        initInstantLoad();
+        
+        // Expose for debugging
+        window.instantLoad = {
+            preloadCriticalImages,
+            preloadImportantImages,
+            applyBrowserOptimizations,
+            replaceImageSources
+        };
+        
+        console.log('✅ ULTRA INSTANT LOAD INITIALIZED');
+        
+    })();
+    </script>
+    
+    <!-- INLINE CSS FOR INSTANT DISPLAY -->
+    <style>
+    /* INSTANT DISPLAY STYLES - NO WAITING FOR CSS */
+    body { 
+        margin: 0; 
+        background: linear-gradient(180deg, #0a1f44, #1e3a8a); 
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        color: white;
+        overflow-x: hidden;
+    }
+    
+    /* Instant header */
+    header { 
+        background: linear-gradient(90deg, #0a1f44, #1e3a8a); 
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        position: relative;
+        z-index: 1000;
+    }
+    
+    /* Instant banner */
+    .banner-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        background: linear-gradient(45deg, #0a1f44 25%, #1e3a8a 50%, #0a1f44 75%);
+        background-size: 400% 400%;
+        animation: gradientBG 3s ease infinite;
+    }
+    
+    /* Instant logo */
+    .logo-circle img {
+        border-radius: 50%;
+        background: linear-gradient(45deg, #0a1f44, #1e3a8a);
+    }
+    
+    /* Loading animation */
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    
+    /* Instant content fade-in */
+    body.instant-loaded * {
+        animation: instantFadeIn 0.3s ease-out;
+    }
+    
+    @keyframes instantFadeIn {
+        from { opacity: 0.9; }
+        to { opacity: 1; }
+    }
+    </style>
+</head>
+<body>
+    <!-- Skip to Content Link for Accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+    
+    <!-- Sidebar - DI KANAN -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <button class="sidebar-close" id="sidebarClose" aria-label="Close sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-content">
+            <nav class="sidebar-nav">
+                <a href="#" class="sidebar-link" data-category="home">
+                    <i class="fas fa-home"></i>
+                    <span>HOME</span>
+                </a>
+                <a href="#" class="sidebar-link" data-category="price">
+                    <i class="fas fa-tag"></i>
+                    <span>PRICE</span>
+                </a>
+                <a href="#" class="sidebar-link" data-category="leaderboard">
+                    <i class="fas fa-trophy"></i>
+                    <span>LEADERBOARD</span>
+                </a>
+                <a href="#" class="sidebar-link" data-category="login">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>LOGIN</span>
+                </a>
+                <a href="#" class="sidebar-link" data-category="register">
+                    <i class="fas fa-user-plus"></i>
+                    <span>REGISTER</span>
+                </a>
+            </nav>
+        </div>
+    </aside>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
+    <!-- Fixed Header -->
+    <header>
+        <div class="header-container">
+            <!-- Logo dengan GIF -->
+            <div class="logo">
+                <div class="logo-circle">
+                    <img src="https://i.imgur.com/EaEj7Yt.gif" alt="VECHNOST Logo" loading="eager" decoding="async">
+                </div>
+            </div>
+            
+            <!-- Search Bar (Desktop) -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Cari ikan..." aria-label="Search fish">
+            </div>
+            
+            <!-- Menu Button (Mobile only) -->
+            <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Header Controls (Mobile only) -->
+            <div class="header-controls">
+                <!-- Mobile Buttons -->
+                <div class="mobile-buttons">
+                    <button class="mobile-search-btn" id="mobileSearchBtn" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Desktop Menu (Desktop only) -->
+            <div class="desktop-menu">
+                <div class="desktop-left-menu">
+                    <a href="#" data-category="home">HOME</a>
+                    <a href="#" data-category="price">PRICE</a>
+                    <a href="#" data-category="leaderboard">LEADERBOARD</a>
+                </div>
+                <div class="desktop-right-menu">
+                    <a href="#" data-category="login">LOGIN</a>
+                    <a href="#" data-category="register">REGISTER</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Search Bar (Hidden by default) -->
+        <div class="mobile-search-container" id="mobileSearchContainer">
+            <div class="mobile-search-wrapper">
+                <input type="text" id="mobileSearchInput" placeholder="Cari ikan..." aria-label="Search fish">
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section dengan Banner Image di Atas -->
+    <section class="hero">
+        <div class="banner-container">
+            <a href="https://whatsapp.com/channel/0029VbB7C6Z4inowFJPoPg3g" target="_blank" class="banner-image">
+                <img src="https://i.imgur.com/iK2SqDk.jpeg" alt="Banner Utama Vechnost | FISH IT -  COLLECTION" loading="eager" decoding="async">
+            </a>
+        </div>
+    </section>
+    
+    <!-- FLASH SALE SECTION -->
+    <section class="flash-sale-section">
+        <div class="container">
+            <div class="flash-sale-header">
+                <div class="flash-sale-title">
+                    <h2>FLASH SALE <i class="fas fa-bolt"></i></h2>
+                    <div class="flash-sale-timer" id="flashSaleTimer">
+                        <div class="timer-item">
+                            <span class="timer-value" id="hours">12</span>
+                            <span class="timer-label">HOURS</span>
+                        </div>
+                        <div class="timer-item">
+                            <span class="timer-value" id="minutes">45</span>
+                            <span class="timer-label">MINUTES</span>
+                        </div>
+                        <div class="timer-item">
+                            <span class="timer-value" id="seconds">30</span>
+                            <span class="timer-label">SECONDS</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="flash-sale-subtitle">Limited time offers! Grab them before they're gone!</p>
+            </div>
+            
+            <div class="flash-sale-cards-container">
+                <div class="flash-sale-track">
+                    <!-- Card 1 -->
+                    <div class="flash-sale-card" data-item="bloodmoon-whale">
+                        <div class="flash-sale-badge">50% OFF</div>
+                        <div class="flash-sale-image">
+                            <img src="https://i.imgur.com/0VaM2BR.png" alt="Bloodmoon Whale" loading="eager" decoding="async">
+                        </div>
+                        <div class="flash-sale-info">
+                            <h3 class="flash-sale-name">Bloodmoon Whale</h3>
+                            <div class="flash-sale-prices">
+                                <div class="price-row price-idr">
+                                    <span class="currency-label">IDR</span>
+                                    <span class="price-original">140.000</span>
+                                    <span class="price-discount">70.000</span>
+                                </div>
+                                <div class="price-row price-myr">
+                                    <span class="currency-label">MYR</span>
+                                    <span class="price-original">40.00</span>
+                                    <span class="price-discount">20.00</span>
+                                </div>
+                                <div class="price-row price-usd">
+                                    <span class="currency-label">USD</span>
+                                    <span class="price-original">10.00</span>
+                                    <span class="price-discount">5.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="flash-sale-card" data-item="ancient-whale">
+                        <div class="flash-sale-badge">40% OFF</div>
+                        <div class="flash-sale-image">
+                            <img src="https://i.imgur.com/3lZltW5.png" alt="Ancient Whale" loading="eager" decoding="async">
+                        </div>
+                        <div class="flash-sale-info">
+                            <h3 class="flash-sale-name">Ancient Whale</h3>
+                            <div class="flash-sale-prices">
+                                <div class="price-row price-idr">
+                                    <span class="currency-label">IDR</span>
+                                    <span class="price-original">58.000</span>
+                                    <span class="price-discount">35.000</span>
+                                </div>
+                                <div class="price-row price-myr">
+                                    <span class="currency-label">MYR</span>
+                                    <span class="price-original">17.00</span>
+                                    <span class="price-discount">10.00</span>
+                                </div>
+                                <div class="price-row price-usd">
+                                    <span class="currency-label">USD</span>
+                                    <span class="price-original">4.25</span>
+                                    <span class="price-discount">2.50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="flash-sale-card" data-item="monster-shark">
+                        <div class="flash-sale-badge">35% OFF</div>
+                        <div class="flash-sale-image">
+                            <img src="https://i.imgur.com/1mOSmTs.png" alt="Monster Shark" loading="eager" decoding="async">
+                        </div>
+                        <div class="flash-sale-info">
+                            <h3 class="flash-sale-name">Monster Shark</h3>
+                            <div class="flash-sale-prices">
+                                <div class="price-row price-idr">
+                                    <span class="currency-label">IDR</span>
+                                    <span class="price-original">200.000</span>
+                                    <span class="price-discount">140.000</span>
+                                </div>
+                                <div class="price-row price-myr">
+                                    <span class="currency-label">MYR</span>
+                                    <span class="price-original">57.00</span>
+                                    <span class="price-discount">40.00</span>
+                                </div>
+                                <div class="price-row price-usd">
+                                    <span class="currency-label">USD</span>
+                                    <span class="price-original">14.25</span>
+                                    <span class="price-discount">10.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="flash-sale-card" data-item="megalodon">
+                        <div class="flash-sale-badge">30% OFF</div>
+                        <div class="flash-sale-image">
+                            <img src="https://i.imgur.com/giC6tC5.png" alt="Megalodon" loading="eager" decoding="async">
+                        </div>
+                        <div class="flash-sale-info">
+                            <h3 class="flash-sale-name">Megalodon</h3>
+                            <div class="flash-sale-prices">
+                                <div class="price-row price-idr">
+                                    <span class="currency-label">IDR</span>
+                                    <span class="price-original">428.000</span>
+                                    <span class="price-discount">300.000</span>
+                                </div>
+                                <div class="price-row price-myr">
+                                    <span class="currency-label">MYR</span>
+                                    <span class="price-original">122.00</span>
+                                    <span class="price-discount">85.00</span>
+                                </div>
+                                <div class="price-row price-usd">
+                                    <span class="currency-label">USD</span>
+                                    <span class="price-original">30.00</span>
+                                    <span class="price-discount">21.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-progress">
+                    <div class="scroll-progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- BEST SELLER SECTION -->
+    <section class="best-seller-section">
+        <div class="container">
+            <div class="best-seller-header">
+                <div class="best-seller-title">
+                    <h2>BEST SELLER <i class="fas fa-fire"></i></h2>
+                </div>
+                <p class="best-seller-subtitle">some products that are popular today</p>
+            </div>
+            
+            <div class="best-seller-cards">
+                <!-- Card 1 -->
+                <div class="best-seller-card" data-item="bloodmoon-whale">
+                    <div class="best-seller-image">
+                        <img src="https://i.imgur.com/rk1jciA.jpeg" alt="Bloodmoon Whale" loading="eager" decoding="async">
+                    </div>
+                    <div class="best-seller-info">
+                        <h3 class="best-seller-name">Bloodmoon Whale</h3>
+                        <div class="best-seller-prices">
+                            <span class="price price-idr">IDR 70.000</span>
+                            <span class="price price-myr">MYR 20.00</span>
+                            <span class="price price-usd">USD 5.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="best-seller-card" data-item="megalodon">
+                    <div class="best-seller-image">
+                        <img src="blob:https://imgur.com/8ab4a55d-5895-42a6-9404-24c350215745" alt="Megalodon" loading="eager" decoding="async">
+                    </div>
+                    <div class="best-seller-info">
+                        <h3 class="best-seller-name">Megalodon</h3>
+                        <div class="best-seller-prices">
+                            <span class="price price-idr">IDR 300.000</span>
+                            <span class="price price-myr">MYR 85.00</span>
+                            <span class="price price-usd">USD 21.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="best-seller-card" data-item="queen-crab">
+                    <div class="best-seller-image">
+                        <img src="https://i.imgur.com/eFgHijK.jpeg" alt="Queen Crab" loading="eager" decoding="async">
+                    </div>
+                    <div class="best-seller-info">
+                        <h3 class="best-seller-name">Queen Crab</h3>
+                        <div class="best-seller-prices">
+                            <span class="price price-idr">IDR 500.000</span>
+                            <span class="price price-myr">MYR 142.00</span>
+                            <span class="price price-usd">USD 35.50</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="best-seller-card" data-item="king-crab">
+                    <div class="best-seller-image">
+                        <img src="https://i.imgur.com/lMnOpQr.jpeg" alt="King Crab" loading="eager" decoding="async">
+                    </div>
+                    <div class="best-seller-info">
+                        <h3 class="best-seller-name">King Crab</h3>
+                        <div class="best-seller-prices">
+                            <span class="price price-idr">IDR 750.000</span>
+                            <span class="price price-myr">MYR 214.00</span>
+                            <span class="price price-usd">USD 53.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Location Navigation Buttons -->
+    <nav class="location-nav">
+        <div class="location-nav-container">
+            <button class="scroll-btn left" id="scrollLeftBtn" aria-label="Scroll left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="location-buttons" id="locationButtons">
+                <!-- Location buttons will be generated by JavaScript -->
+            </div>
+            <button class="scroll-btn right" id="scrollRightBtn" aria-label="Scroll right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Content will be generated by JavaScript -->
+    </main>
+    
+    <!-- Order Modal -->
+    <div id="orderModal" class="order-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>ORDER DETAILS</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <!-- Product Info Section -->
+                <div class="product-info">
+                    <div class="product-image-container">
+                        <img id="modalProductImage" src="" alt="Product Image" class="product-image" loading="eager" decoding="async">
+                    </div>
+                    <div class="product-details">
+                        <h3 id="modalProductName"></h3>
+                        <div class="product-prices">
+                            <span class="price price-idr" id="modalPriceIdr"></span>
+                            <span class="price price-myr" id="modalPriceMyr"></span>
+                            <span class="price price-usd" id="modalPriceUsd"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <!-- Order Form Section -->
+                <div class="order-form">
+                    <!-- Username dan Quantity bersebelahan -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="username">
+                                <i class="fas fa-user"></i> USERNAME ROBLOX
+                            </label>
+                            <input type="text" id="username" placeholder="Example: vechnost" maxlength="20">
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">
+                                <i class="fas fa-box"></i> QUANTITY
+                            </label>
+                            <input type="number" id="quantity" placeholder="Example: 1-100" min="1" max="100" value="1">
+                        </div>
+                    </div>
+                    
+                    <!-- Currency Selection - 3 button satu baris -->
+                    <div class="currency-section">
+                        <label><i class="fas fa-coins"></i> CHOOSE CURRENCY</label>
+                        <div class="currency-buttons">
+                            <button class="currency-btn active" data-currency="IDR">IDR</button>
+                            <button class="currency-btn" data-currency="MYR">MYR</button>
+                            <button class="currency-btn" data-currency="USD">USD</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Payment Methods - 2 baris @ 3 button -->
+                    <div class="payment-section">
+                        <label><i class="fas fa-credit-card"></i> PAYMENT METHOD</label>
+                        <div class="payment-buttons" id="paymentButtons">
+                            <!-- Payment methods akan diisi dinamis oleh JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Details - 2 button satu baris -->
+                    <div class="contact-section">
+                       <label><i class="fas fa-comments"></i> CONTACT VIA</label>
+                        <div class="contact-options">
+                            <button class="contact-option active" data-contact="whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WHATSAPP</span>
+                            </button>
+                            <button class="contact-option" data-contact="instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>INSTAGRAM</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <!-- Action Buttons -->
+                <div class="modal-actions">
+                    <button class="btn-cancel" id="cancelBtn">
+                        <i class="fas fa-times"></i> CANCEL
+                    </button>
+                    <button class="btn-order" id="orderBtn">
+                        <i class="fas fa-truck-fast"></i> ORDER
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="truck-animation">
+                <i class="fas fa-truck-fast"></i>
+            </div>
+            <p>Processing your order...</p>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-section">
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/vechnost.id" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/+6288289171435" class="social-icon" aria-label="Whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://vechnost.vercel.app/" class="social-icon" aria-label="Website">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Kemitraan</h4>
+                    <p>Vechnost adalah platform independen untuk trading item digital game. Kami tidak berafiliasi dengan, didukung oleh, atau disponsori. Semua trademark adalah milik pemiliknya masing-masing dan digunakan hanya untuk tujuan identifikasi.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#" data-category="home">Home</a></li>
+                        <li><a href="#" data-category="price">Price</a></li>
+                        <li><a href="#" data-category="leaderboard">Leaderboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Service</h4>
+                    <ul>
+                        <li><a href="#" id="joki-footer-link">Joki</a></li>
+                        <li><a href="#" id="gamepass-footer-link">Gamepass</a></li>
+                        <li><a href="#" id="account-footer-link">Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">© 2025 VECHNOST | FISH IT - COLLECTION</div>
+        </div>
+    </footer>
+
+    <!-- Chat Button -->
+    <a href="https://wa.me/+6288289171435" class="chat-btn">
+        <img src="https://i.imgur.com/3ZzB6Go.png" alt="WhatsApp" class="whatsapp-img" loading="eager" decoding="async">
+    </a>
+
+    <!-- JavaScript -->
+    <script src="assets/js/style.js"></script>
+    <script src="assets/js/flashsale.js"></script>
+    
+    <!-- INLINE SCRIPT FOR INSTANT LOAD -->
+    <script>
+    // Force image load function
+    window.forceImageLoad = function() {
+        console.log('🖼️ Force loading all images...');
+        
+        // Get all images
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            if (!img.complete) {
+                // Force reload if not loaded
+                const src = img.src;
+                img.src = '';
+                img.src = src;
+            }
+        });
+    };
+    
+    // Footer links
+    document.addEventListener('DOMContentLoaded', function() {
+        // Joki link
+        const jokiLink = document.getElementById('joki-footer-link');
+        if (jokiLink) {
+            jokiLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                const jokiBtn = document.querySelector('[data-category="joki"]');
+                if (jokiBtn) jokiBtn.click();
+            });
+        }
+        
+        // Gamepass link
+        const gamepassLink = document.getElementById('gamepass-footer-link');
+        if (gamepassLink) {
+            gamepassLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                const gamepassBtn = document.querySelector('[data-category="gamepass"]');
+                if (gamepassBtn) gamepassBtn.click();
+            });
+        }
+        
+        // Account link
+        const accountLink = document.getElementById('account-footer-link');
+        if (accountLink) {
+            accountLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                const accountBtn = document.querySelector('[data-category="account"]');
+                if (accountBtn) accountBtn.click();
+            });
+        }
+        
+        // Register Service Worker for all browsers
+        if ('serviceWorker' in navigator) {
+            // Try Chrome worker first
+            navigator.serviceWorker.register('assets/js/chrome-worker.js')
+                .then(reg => {
+                    console.log('✅ Chrome Service Worker registered');
+                })
+                .catch(err => {
+                    console.log('⚠️ Chrome Worker failed, trying Safari...');
+                    // Fallback to Safari worker
+                    navigator.serviceWorker.register('assets/js/safari-worker.js')
+                        .then(reg => console.log('✅ Safari Service Worker registered'))
+                        .catch(err => console.log('❌ All Service Workers failed'));
+                });
+        }
+        
+        // Mark as fully loaded
+        setTimeout(() => {
+            document.body.classList.add('fully-loaded');
+        }, 1000);
+    });
+    
+    // Preload all images on page load
+    window.addEventListener('load', function() {
+        console.log('📦 Page fully loaded, preloading remaining images...');
+        
+        // Preload fish images
+        if (window.fishData) {
+            setTimeout(() => {
+                window.fishData.forEach(item => {
+                    const img = new Image();
+                    img.src = item.imageUrl;
+                    img.loading = 'eager';
+                });
+            }, 2000);
+        }
+        
+        // Mark instant load complete
+        document.body.classList.add('instant-load-complete');
+    });
+    </script>
+</body>
+</html>

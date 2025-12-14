@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preload Images</title>
+    <style>
+        body { display: none; }
+        .preload-images { 
+            position: absolute; 
+            width: 0; 
+            height: 0; 
+            overflow: hidden; 
+        }
+    </style>
+</head>
+<body>
+    <!-- SEMUA GAMBAR AKAN DI-PRELOAD DISINI -->
+    <div class="preload-images">
+        <img src="https://i.imgur.com/iK2SqDk.jpeg" alt="banner">
+        <img src="https://i.imgur.com/EaEj7Yt.gif" alt="logo">
+        <img src="https://i.imgur.com/3ZzB6Go.png" alt="whatsapp">
+        
+        <!-- Flash Sale Images -->
+        <img src="https://i.imgur.com/0VaM2BR.png">
+        <img src="https://i.imgur.com/3lZltW5.png">
+        <img src="https://i.imgur.com/1mOSmTs.png">
+        <img src="https://i.imgur.com/giC6tC5.png">
+        
+        <!-- Best Seller Images -->
+        <img src="https://i.imgur.com/rk1jciA.jpeg">
+        <img src="https://i.imgur.com/giC6tC5.png">
+        <img src="https://i.imgur.com/eFgHijK.jpeg">
+        <img src="https://i.imgur.com/lMnOpQr.jpeg">
+    </div>
+    
+    <script>
+    // Force cache semua gambar
+    const images = document.querySelectorAll('.preload-images img');
+    images.forEach(img => {
+        img.loading = 'eager';
+        img.decoding = 'async';
+        img.fetchPriority = 'high';
+    });
+    
+    // Redirect ke main page setelah preload
+    setTimeout(() => {
+        window.location.href = '/';
+    }, 100);
+    </script>
+</body>
+</html>

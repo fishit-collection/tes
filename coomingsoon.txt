@@ -1,0 +1,50 @@
+ const gamepassData = [
+    {
+        name: "Gamepass Basic",
+        imageUrl: "https://i.imgur.com/QrStUvW.jpeg",
+        price: "IDR 250.000",
+        price2: "MYR 71.25",
+        price3: "USD 17.80",
+        itemId: "gamepass-basic"
+    },
+    {
+        name: "Gamepass Premium",
+        imageUrl: "https://i.imgur.com/XyZaBcD.jpeg",
+        price: "IDR 500.000",
+        price2: "MYR 142.50",
+        price3: "USD 35.65",
+        itemId: "gamepass-premium"
+    },
+    {
+        name: "Gamepass Ultimate",
+        imageUrl: "https://i.imgur.com/EfGhIjK.jpeg",
+        price: "IDR 1.000.000",
+        price2: "MYR 285.00",
+        price3: "USD 71.25",
+        itemId: "gamepass-ultimate"
+    },
+    {
+        name: "Gamepass Collector",
+        imageUrl: "https://i.imgur.com/LmNoPqR.jpeg",
+        price: "IDR 1.500.000",
+        price2: "MYR 427.50",
+        price3: "USD 106.90",
+        itemId: "gamepass-collector"
+    },
+    {
+        name: "Gamepass Event",
+        imageUrl: "https://i.imgur.com/StUvWxY.jpeg",
+        price: "IDR 750.000",
+        price2: "MYR 213.75",
+        price3: "USD 53.45",
+        itemId: "gamepass-event"
+    },
+    {
+        name: "Gamepass Bundle",
+        imageUrl: "https://i.imgur.com/ZaBcDeF.jpeg",
+        price: "IDR 2.000.000",
+        price2: "MYR 570.00",
+        price3: "USD 142.50",
+        itemId: "gamepass-bundle"
+    }
+];
